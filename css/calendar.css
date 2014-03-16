@@ -1,0 +1,35 @@
+table tr td {
+  padding: 0px;
+}
+.month-row {
+  background-color: #099aee;
+  color: #e1dede;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+}
+.days-row {
+  background-color: #099aee;
+  color: #e1dede;
+  text-align: center;
+}
+.date-row td {
+  width: 225px;
+  height: 125px;
+  border: dotted 1px #c2c2c2;
+}
+.date-row .non-date {
+  background-color: #c2c2c2;
+}
+.celldate-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 0.75em;
+}
+.celldate-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

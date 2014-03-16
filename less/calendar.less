@@ -1,0 +1,50 @@
+@lightGrey: #c2c2c2;
+@bgColor: #000;
+@navHeight:40px;
+@badass: #BADA55;
+@headerBgColor: #099aee;
+@headerColor: #e1dede;
+@tdDateWidth: 225px;
+@tdDateHieght: 125px;
+
+
+table{
+
+	tr{
+	td{padding: 0px;}
+	}
+}
+.month-row{
+	
+	background-color:@headerBgColor;
+	color:@headerColor;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-align:center; 
+}
+
+.days-row{
+	background-color: @headerBgColor;
+	color: @headerColor;
+	text-align:center; 
+}
+
+.date-row{
+	
+	td{width: @tdDateWidth; height: @tdDateHieght; border: dotted 1px @lightGrey; }
+	.non-date{background-color: @lightGrey;}
+}
+
+.celldate-number{
+	position: absolute;
+	top:0;
+	right:0;
+	padding:5px;
+	font-size: 0.75em;
+}
+
+.celldate-container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
