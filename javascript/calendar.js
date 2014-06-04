@@ -1,5 +1,4 @@
 (function($) {
-
 	$.fn.extend({
 		calendar: function(options) {
 			var defaults = {

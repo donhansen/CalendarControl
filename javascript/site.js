@@ -1,7 +1,7 @@
 $(function() {
 
 	$('#cal0').calendar({
-		date: new Date('1/1/2014')
+		date: new Date()
 	});
 
 
